@@ -33,7 +33,7 @@ All JSON configurations here are just samples, many other fields have been omitt
 
 ## Adding Arguments
 
-The `args` array represents the list of arguments accepted by its command or subcommand. You can find more details about the way to configure them [here][tauri config].
+The `args` array represents the list of arguments accepted by its command or subcommand. You can find more details about the way to configure them [here][tauri cliarg config].
 
 ### Positional Arguments
 
@@ -152,7 +152,8 @@ getMatches().then((matches) => {
 
 ## Complete documentation
 
-You can find more about the CLI configuration [here][tauri config].
+You can find more about the CLI configuration [here][tauri cliconfig config].
 
 [clap]: https://github.com/clap-rs/clap
-[tauri config]: ../../api/config#tauri
+[tauri cliconfig config]: ../../../api/config#cliconfig
+[tauri cliarg config]: ../../../api/config#cliarg
